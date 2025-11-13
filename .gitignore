@@ -1,0 +1,31 @@
+# Configuration files with credentials
+config/database.php
+
+# Uploaded files
+uploads/cv/*
+uploads/documents/*
+!uploads/cv/.gitkeep
+!uploads/documents/.gitkeep
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
